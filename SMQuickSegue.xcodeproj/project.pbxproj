@@ -121,7 +121,8 @@
 				7B4BD46E1853747D0004EF30 /* SMQuickSegue.xcdatamodeld */,
 				7B4BD4631853747D0004EF30 /* Supporting Files */,
 			);
-			path = SMQuickSegue;
+			name = SMQuickSegue;
+			path = SMQuickSegueExample;
 			sourceTree = "<group>";
 		};
 		7B4BD4631853747D0004EF30 /* Supporting Files */ = {
