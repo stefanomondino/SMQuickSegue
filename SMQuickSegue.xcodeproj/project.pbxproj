@@ -13,15 +13,17 @@
 		7B4BD4611853747D0004EF30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4BD4601853747D0004EF30 /* CoreData.framework */; };
 		7B4BD4671853747D0004EF30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B4BD4651853747D0004EF30 /* InfoPlist.strings */; };
 		7B4BD4691853747D0004EF30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD4681853747D0004EF30 /* main.m */; };
-		7B4BD46D1853747D0004EF30 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD46C1853747D0004EF30 /* SMAppDelegate.m */; };
-		7B4BD4701853747D0004EF30 /* SMQuickSegue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD46E1853747D0004EF30 /* SMQuickSegue.xcdatamodeld */; };
 		7B4BD4721853747D0004EF30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4BD4711853747D0004EF30 /* Images.xcassets */; };
 		7B4BD4791853747D0004EF30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4BD4781853747D0004EF30 /* XCTest.framework */; };
 		7B4BD47A1853747D0004EF30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4BD45A1853747D0004EF30 /* Foundation.framework */; };
 		7B4BD47B1853747D0004EF30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4BD45E1853747D0004EF30 /* UIKit.framework */; };
 		7B4BD47C1853747D0004EF30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4BD4601853747D0004EF30 /* CoreData.framework */; };
-		7B4BD4841853747D0004EF30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B4BD4821853747D0004EF30 /* InfoPlist.strings */; };
-		7B4BD4861853747D0004EF30 /* SMQuickSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD4851853747D0004EF30 /* SMQuickSegueTests.m */; };
+		7B4BD492185375A90004EF30 /* UIViewController+SMQuickSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD491185375A90004EF30 /* UIViewController+SMQuickSegue.m */; };
+		7B4BD495185379730004EF30 /* SMQuickViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD494185379730004EF30 /* SMQuickViewControllers.m */; };
+		7B4BD49818537D2D0004EF30 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD49718537D2D0004EF30 /* SMAppDelegate.m */; };
+		7B4BD49A18537D940004EF30 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4BD49918537D940004EF30 /* Storyboard.storyboard */; };
+		7B4BD49D18537E2E0004EF30 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD49C18537E2E0004EF30 /* FirstViewController.m */; };
+		7B4BD4A01853803D0004EF30 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BD49F1853803D0004EF30 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +46,20 @@
 		7B4BD4661853747D0004EF30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B4BD4681853747D0004EF30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B4BD46A1853747D0004EF30 /* SMQuickSegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMQuickSegue-Prefix.pch"; sourceTree = "<group>"; };
-		7B4BD46B1853747D0004EF30 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
-		7B4BD46C1853747D0004EF30 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
-		7B4BD46F1853747D0004EF30 /* SMQuickSegue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMQuickSegue.xcdatamodel; sourceTree = "<group>"; };
 		7B4BD4711853747D0004EF30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B4BD4771853747D0004EF30 /* SMQuickSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMQuickSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4BD4781853747D0004EF30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7B4BD4811853747D0004EF30 /* SMQuickSegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMQuickSegueTests-Info.plist"; sourceTree = "<group>"; };
-		7B4BD4831853747D0004EF30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7B4BD4851853747D0004EF30 /* SMQuickSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMQuickSegueTests.m; sourceTree = "<group>"; };
+		7B4BD490185375A90004EF30 /* UIViewController+SMQuickSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SMQuickSegue.h"; sourceTree = "<group>"; };
+		7B4BD491185375A90004EF30 /* UIViewController+SMQuickSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SMQuickSegue.m"; sourceTree = "<group>"; };
+		7B4BD493185379730004EF30 /* SMQuickViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMQuickViewControllers.h; sourceTree = "<group>"; };
+		7B4BD494185379730004EF30 /* SMQuickViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMQuickViewControllers.m; sourceTree = "<group>"; };
+		7B4BD49618537D2D0004EF30 /* SMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		7B4BD49718537D2D0004EF30 /* SMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		7B4BD49918537D940004EF30 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7B4BD49B18537E2E0004EF30 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7B4BD49C18537E2E0004EF30 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7B4BD49E1853803D0004EF30 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7B4BD49F1853803D0004EF30 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +91,8 @@
 		7B4BD44E1853747D0004EF30 = {
 			isa = PBXGroup;
 			children = (
-				7B4BD4621853747D0004EF30 /* SMQuickSegue */,
-				7B4BD47F1853747D0004EF30 /* SMQuickSegueTests */,
+				7B4BD48F185375830004EF30 /* SMQuickSegue */,
+				7B4BD4621853747D0004EF30 /* SMQuickSegueExample */,
 				7B4BD4591853747D0004EF30 /* Frameworks */,
 				7B4BD4581853747D0004EF30 /* Products */,
 			);
@@ -112,16 +119,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7B4BD4621853747D0004EF30 /* SMQuickSegue */ = {
+		7B4BD4621853747D0004EF30 /* SMQuickSegueExample */ = {
 			isa = PBXGroup;
 			children = (
-				7B4BD46B1853747D0004EF30 /* SMAppDelegate.h */,
-				7B4BD46C1853747D0004EF30 /* SMAppDelegate.m */,
 				7B4BD4711853747D0004EF30 /* Images.xcassets */,
-				7B4BD46E1853747D0004EF30 /* SMQuickSegue.xcdatamodeld */,
 				7B4BD4631853747D0004EF30 /* Supporting Files */,
+				7B4BD49618537D2D0004EF30 /* SMAppDelegate.h */,
+				7B4BD49718537D2D0004EF30 /* SMAppDelegate.m */,
 			);
-			name = SMQuickSegue;
 			path = SMQuickSegueExample;
 			sourceTree = "<group>";
 		};
@@ -132,26 +137,24 @@
 				7B4BD4651853747D0004EF30 /* InfoPlist.strings */,
 				7B4BD4681853747D0004EF30 /* main.m */,
 				7B4BD46A1853747D0004EF30 /* SMQuickSegue-Prefix.pch */,
+				7B4BD49918537D940004EF30 /* Storyboard.storyboard */,
+				7B4BD49B18537E2E0004EF30 /* FirstViewController.h */,
+				7B4BD49C18537E2E0004EF30 /* FirstViewController.m */,
+				7B4BD49E1853803D0004EF30 /* SecondViewController.h */,
+				7B4BD49F1853803D0004EF30 /* SecondViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7B4BD47F1853747D0004EF30 /* SMQuickSegueTests */ = {
+		7B4BD48F185375830004EF30 /* SMQuickSegue */ = {
 			isa = PBXGroup;
 			children = (
-				7B4BD4851853747D0004EF30 /* SMQuickSegueTests.m */,
-				7B4BD4801853747D0004EF30 /* Supporting Files */,
+				7B4BD490185375A90004EF30 /* UIViewController+SMQuickSegue.h */,
+				7B4BD491185375A90004EF30 /* UIViewController+SMQuickSegue.m */,
+				7B4BD493185379730004EF30 /* SMQuickViewControllers.h */,
+				7B4BD494185379730004EF30 /* SMQuickViewControllers.m */,
 			);
-			path = SMQuickSegueTests;
-			sourceTree = "<group>";
-		};
-		7B4BD4801853747D0004EF30 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B4BD4811853747D0004EF30 /* SMQuickSegueTests-Info.plist */,
-				7B4BD4821853747D0004EF30 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = SMQuickSegue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +235,7 @@
 			files = (
 				7B4BD4671853747D0004EF30 /* InfoPlist.strings in Resources */,
 				7B4BD4721853747D0004EF30 /* Images.xcassets in Resources */,
+				7B4BD49A18537D940004EF30 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4BD4841853747D0004EF30 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4BD4701853747D0004EF30 /* SMQuickSegue.xcdatamodeld in Sources */,
-				7B4BD46D1853747D0004EF30 /* SMAppDelegate.m in Sources */,
+				7B4BD4A01853803D0004EF30 /* SecondViewController.m in Sources */,
+				7B4BD495185379730004EF30 /* SMQuickViewControllers.m in Sources */,
+				7B4BD492185375A90004EF30 /* UIViewController+SMQuickSegue.m in Sources */,
+				7B4BD49D18537E2E0004EF30 /* FirstViewController.m in Sources */,
+				7B4BD49818537D2D0004EF30 /* SMAppDelegate.m in Sources */,
 				7B4BD4691853747D0004EF30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4BD4861853747D0004EF30 /* SMQuickSegueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,14 +284,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				7B4BD4661853747D0004EF30 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7B4BD4821853747D0004EF30 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B4BD4831853747D0004EF30 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -372,8 +369,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SMQuickSegue/SMQuickSegue-Prefix.pch";
-				INFOPLIST_FILE = "SMQuickSegue/SMQuickSegue-Info.plist";
+				GCC_PREFIX_HEADER = "SMQuickSegueExample/SMQuickSegue-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SMQuickSegueExample/SMQuickSegue-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,8 +382,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SMQuickSegue/SMQuickSegue-Prefix.pch";
-				INFOPLIST_FILE = "SMQuickSegue/SMQuickSegue-Info.plist";
+				GCC_PREFIX_HEADER = "SMQuickSegueExample/SMQuickSegue-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SMQuickSegueExample/SMQuickSegue-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,6 +450,7 @@
 				7B4BD48B1853747D0004EF30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B4BD48C1853747D0004EF30 /* Build configuration list for PBXNativeTarget "SMQuickSegueTests" */ = {
 			isa = XCConfigurationList;
@@ -461,21 +459,9 @@
 				7B4BD48E1853747D0004EF30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7B4BD46E1853747D0004EF30 /* SMQuickSegue.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7B4BD46F1853747D0004EF30 /* SMQuickSegue.xcdatamodel */,
-			);
-			currentVersion = 7B4BD46F1853747D0004EF30 /* SMQuickSegue.xcdatamodel */;
-			path = SMQuickSegue.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7B4BD44F1853747D0004EF30 /* Project object */;
 }
