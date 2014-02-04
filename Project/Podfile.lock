@@ -1,0 +1,14 @@
+PODS:
+  - SMQuickSegue (0.1.0)
+
+DEPENDENCIES:
+  - SMQuickSegue (from `../SMQuickSegue.podspec`)
+
+EXTERNAL SOURCES:
+  SMQuickSegue:
+    :path: ../SMQuickSegue.podspec
+
+SPEC CHECKSUMS:
+  SMQuickSegue: 355c6e9735e8ae4ee895f37e4945915b04e3b7b6
+
+COCOAPODS: 0.29.0

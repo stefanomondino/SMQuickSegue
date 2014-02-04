@@ -7,30 +7,20 @@
 Pod::Spec.new do |s|
   s.name         = "SMQuickSegue"
   s.version      = "0.1.0"
-  s.summary      = "A short description of SMQuickSegue."
-  s.description  = <<-DESC
-                    An optional longer description of SMQuickSegue
-
-                    * Markdown format.
-                    * Don't worry about the indent, we strip it!
-                   DESC
-  s.homepage     = "http://EXAMPLE/NAME"
-  s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary      = "Quick parameter setting with storyboard segues"
+  s.description  =  "WorkInProgress"
+  s.homepage     = "http://www.stefanomondino.com"
   s.license      = 'MIT'
-  s.author       = { "Stefano Mondino" => "puntoste@gmail.com" }
-  s.source       = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.author       = { "Stefano Mondino" => "stefano.mondino.dev@gmail.com" }
+   s.source   = { :git => 'git@github.com:stefanomondino/SMQuickSegue.git' }
 
-  # s.platform     = :ios, '5.0'
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
+  s.platform     = :ios, '5.0'
+  s.ios.deployment_target = '5.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes'
+  s.source_files = 'Classes/**/*.{m,h}'
   s.resources = 'Assets'
 
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.public_header_files = 'Classes/**/*.h'
+
 end
