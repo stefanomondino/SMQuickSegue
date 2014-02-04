@@ -5,6 +5,8 @@
 
 ## Usage
 
+This library (and its documentation) is currently work in progress, I'm testing on some personal project.
+
 To run the example project; clone the repo, and run `pod install` from the Project directory first.
 
 ## Requirements
@@ -12,13 +14,13 @@ To run the example project; clone the repo, and run `pod install` from the Proje
 ## Installation
 
 SMQuickSegue is available through [CocoaPods](http://cocoapods.org), to install
-it simply add the following line to your Podfile:
+it simply add the following line to your Podfile (pull request to cocoapods coming soon):
 
-    pod "SMQuickSegue"
+   	pod 'SMQuickRestKit',:git => 'https://github.com/stefanomondino/SMQuickRestKit.git', :branch => 'master'
 
 ## Author
 
-Stefano Mondino, puntoste@gmail.com
+Stefano Mondino, stefano.mondino.dev@gmail.com
 
 ## License
 
