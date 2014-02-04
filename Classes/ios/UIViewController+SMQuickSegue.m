@@ -88,7 +88,7 @@
     NSAssert(![sender isKindOfClass:[UIViewController class]], @"Sender can't be a UIViewController");
     [sender setSegueParameters:params];
     [self performSegueWithIdentifier:identifier sender:sender];
-    [sender performSelector:@selector(setSegueParams:) withObject:nil afterDelay:0.0];
+    [sender performSelector:@selector(setSegueParameters:) withObject:nil afterDelay:0.0];
 }
 @end
 
