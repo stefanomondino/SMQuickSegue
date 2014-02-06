@@ -1,7 +1,9 @@
 PODS:
+  - OCMock (2.2.2)
   - SMQuickSegue (0.1.0)
 
 DEPENDENCIES:
+  - OCMock
   - SMQuickSegue (from `../SMQuickSegue.podspec`)
 
 EXTERNAL SOURCES:
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../SMQuickSegue.podspec
 
 SPEC CHECKSUMS:
-  SMQuickSegue: 355c6e9735e8ae4ee895f37e4945915b04e3b7b6
+  OCMock: ffba68873fd32cfd35d885bddad23bfa816da4a3
+  SMQuickSegue: b9016d741fe3a40ab0729180477c541cca437a0c
 
 COCOAPODS: 0.29.0

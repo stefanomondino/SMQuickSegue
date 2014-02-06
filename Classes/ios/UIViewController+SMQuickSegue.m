@@ -67,7 +67,7 @@
         else {
             [params enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
                 if ([segue.destinationViewController respondsToSelector:NSSelectorFromString(key)]){
-                    [segue.destinationViewController setValue:obj forKeyPath:key];
+                    [segue.destinationViewController setValue:[obj isKindOfClass:[NSNull class]]? nil:obj forKeyPath:key];
                 }
             }];
         }

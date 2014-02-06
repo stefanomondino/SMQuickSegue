@@ -50,8 +50,9 @@
 @interface UINavigationController(SMQuickSegue)
 
 /**
- Sets previously set segue parameters on first child view-controller.
- It should be called in viewDidLoad method.
+ Sets segue parameters (coming from a previous segue) to first child view-controller.
+ This is useful in custom UI design patterns such Split View Controllers, Tab View Controllers, Sliding Menus and, in general, any custom segue that leads to a UINavigationController.
+ It should be called in viewDidLoad method. Use SMNavigationController instead if you don't need to subclass.
  */
 - (void) setSegueParametersOnFirstChildViewController;
 @end
@@ -60,7 +61,17 @@
 
 /**
  Parameters to be passed over segue's destination view-controller.
+ @param segueParameters A NSDictionary where keys are associated to properties of destination view-controllers which you would like to set to specified values.
+If you're unwinding back to a view-controller and you need to nil out some value, use [NSNull null] as value for corresponding key.
+ 
  */
 @property (nonatomic,strong) NSDictionary* segueParameters;
+
+/**
+ Check if receiver responds to target keypath. 
+ 
+ @param keyPath A keypath in receiver
+ @return Return YES if receiver responds to desired keypath, NO otherwise
+ */
 - (BOOL) respondsToKeyPath:(NSString *)keyPath;
 @end

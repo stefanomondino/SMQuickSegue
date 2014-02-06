@@ -1,2 +1,5 @@
 pod "SMQuickSegue", :path => "../SMQuickSegue.podspec"
 
+target :SMQuickSegueTests, :exclusive => true do
+    pod 'OCMock'
+end

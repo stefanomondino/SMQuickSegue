@@ -30,6 +30,7 @@
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     [super prepareForSegue:segue sender:sender];
+    [self respondsToSelector:nil];
     [self quickPrepareForSegue:segue sender:sender];
 }
 
