@@ -13,7 +13,6 @@
  Convienience class for UIViewControllers with -prepareForSegue method override to pass arbitrary parameters to segue's destination view controller.
  */
 @interface SMQuickViewController : UIViewController
-@property (nonatomic,weak) UIPopoverController* popover;
 @end
 
 @interface SMQuickNavigationController : UINavigationController
