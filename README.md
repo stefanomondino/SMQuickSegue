@@ -21,8 +21,19 @@ Then we should add the following in viewDidLoad:
 [self.nextButton setSegueParameters:@{@"title":@"NEW TITLE!"}];
 }
 ```
+and override the prepareForSegue:sender: method like this :
+```  objective-c
+//FirstViewController.m or your base view controller from which you extend every view-controller
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    [super prepareForSegue:segue sender:sender];
+    [self quickPrepareForSegue:segue sender:sender];
+}
+```
+You can also skip this last one if you extend FirstViewController from SMQuickViewController instead of UIViewController, it' up to you.
+
 That's it!
-This example, of course, is trivial (and kinda nonsense), but you can put all values (and keypaths too) we need to set in segueParameters and automatically have them set in destination view-controller.
+This example, of course, is very simple and kinda nonsense (it's pointless to simply set a hardcoded title from previous to next view controller) , but you can put all values (and keypaths too) we need to set in segueParameters and automatically have them set in destination view-controller.
 More examples coming really soon, in the meantime you can check out the example project.
 
 To run the example project; clone the repo, and run `pod install` from the Project directory first.
