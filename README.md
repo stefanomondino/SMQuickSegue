@@ -45,9 +45,9 @@ SMQuickSegue requires iOS 5.0 and above in a storyboard based ARC project.
 ## Installation
 
 SMQuickSegue is available through [CocoaPods](http://cocoapods.org), to install
-it simply add the following line to your Podfile (pull request to cocoapods coming soon):
+it simply add the following line to your Podfile:
 
-   	pod 'SMQuickRestKit',:git => 'https://github.com/stefanomondino/SMQuickRestKit.git', :branch => 'master'
+   	pod 'SMQuickSegue'
 
 ## Author
 
